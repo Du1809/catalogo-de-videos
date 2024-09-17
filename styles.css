@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50; /* Fundo escuro para um visual militar */
+}
+
+header {
+    background-color: #1c252d; /* Fundo verde militar escuro */
+    color: #D4AF37; /* Dourado para dar um toque militar e de prestígio */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #a89529; /* Linha dourada para reforçar o tema */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: calc(100% - 160px);
+    background-color: #23363c; /* Fundo camuflado */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.description {
+    flex: 1;
+    flex-basis: 400px;
+    font-size: 1.5em;
+    color: #D4AF37; /* Texto dourado para contraste */
+    line-height: 1.6;
+    max-width: 500px;
+    border: 2px solid #a89529; /* Borda dourada */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(35, 54, 60, 0.7); /* Fundo semi-transparente com estilo militar */
+}
+
+.video-thumbnail {
+    transition: transform 0.3s ease;
+}
+
+.video-main img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 2px solid #a89529; /* Borda dourada para o vídeo */
+}
+
+footer {
+    background-color: #1c252d;
+    color: #D4AF37;
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 4px solid #a89529;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-links a {
+    flex: 1;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 2px solid #a89529; /* Borda dourada para os vídeos no footer */
+}
+
+.footer-links img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
